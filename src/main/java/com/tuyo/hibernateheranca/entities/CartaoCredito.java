@@ -1,12 +1,11 @@
 package com.tuyo.hibernateheranca.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name="card")
-@PrimaryKeyJoinColumn(name="id")
+@DiscriminatorValue("cc")
+/*@Table(name="card")
+@PrimaryKeyJoinColumn(name="id")*/
 public class CartaoCredito extends Pagamento {
 
 	private String cardnumber;

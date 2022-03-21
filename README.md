@@ -14,7 +14,7 @@
 #### a. SINGLE_TABLE
 ##### 1. Essa estratégia traz todas as informações de Cartão de crédito ou cheque, numa simples tabela:
 |  PMODE     | 
-| :---         |
+| :---:         |
 |   cc   |
 |   cq   |
 ##### 1.1  cc - Cartão de crédito - Quando o Hibernate verifica " cc ", ele sabe que essa linha tem que ser convertida num cartão de crédito.
@@ -23,4 +23,16 @@
 ##### 3. E utilizamos @DiscriminatorValue nas classes-filhas.
 
 #### b. TABLE_PER_CLASS
+##### 1. Essa estratégia traz todas as informações de Cartão de crédito ou cheque, serem armazenadas nos campos apropriados das tabelas:
+###### cc
+|   id   |  amount  |    cardnumber    |
+| :---         |     :---:      |          ---: |
+| alinhado a esquerda   | alinhado ao centro     | alinhado a direita    |
+###### cq
+|   id   |  amount  |    checknumber    |
+| :---         |     :---:      |          ---: |
+| alinhado a esquerda   | alinhado ao centro     | alinhado a direita    |
+
+##### 1.1 Tabelas recuperam informações através dos ID's.
+##### 1.2 Apesar de ser mais rápida, não é muito recomendada como ela faz a duplicação das colunas através das tabelas. É possível que gere alguma falha de normalização da regra.
 #### c. JOINED
