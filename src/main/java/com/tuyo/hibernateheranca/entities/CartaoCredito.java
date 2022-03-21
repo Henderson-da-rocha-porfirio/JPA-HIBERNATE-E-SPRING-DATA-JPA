@@ -3,9 +3,8 @@ package com.tuyo.hibernateheranca.entities;
 import javax.persistence.*;
 
 @Entity
-@DiscriminatorValue("cc")
-/*@Table(name="card")
-@PrimaryKeyJoinColumn(name="id")*/
+@Table(name="cartao")
+/*@PrimaryKeyJoinColumn(name="id")*/
 public class CartaoCredito extends Pagamento {
 
 	private String cardnumber;

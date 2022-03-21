@@ -3,8 +3,7 @@ package com.tuyo.hibernateheranca.entities;
 import javax.persistence.*;
 
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE) // InheritanceType é um tipo de enumeração.
-@DiscriminatorColumn(name = "pmode", discriminatorType = DiscriminatorType.STRING)
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS) // Exemplo com TABLE_PER_CLASS
 public abstract class Pagamento { // abstract porque não será utilizado diretamente este Pagamento. É uma classe genérica.
 
 	@Id
