@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="cartao")
-/*@PrimaryKeyJoinColumn(name="id")*/
+@PrimaryKeyJoinColumn(name="id") // Ao usar o strategie JOINED na super-classe, faz-se necessário o uso de PrimaryKeyJoinColumn nas sub-classes.
 public class CartaoCredito extends Pagamento {
 
 	private String cardnumber;
