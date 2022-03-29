@@ -1,8 +1,8 @@
 package com.tuyo.agendamentopaciente.repos;
 
-import com.bharath.springdata.patientscheduling.entities.Patient;
+import com.tuyo.agendamentopaciente.entities.Paciente;
 import org.springframework.data.repository.CrudRepository;
 
-public interface PacienteRepository extends CrudRepository<Patient, Long> {
+public interface PacienteRepository extends CrudRepository<Paciente, Long> {
 
 }
