@@ -9,17 +9,17 @@ public class Agendamento {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private Timestamp appointmentTime;
+	private Timestamp agendamento_time;
 	private boolean started;
 	private boolean ended;
-	private String reason;
+	private String razao;
 
 	@ManyToOne
-	@JoinColumn(name = "patient_id")
+	@JoinColumn(name = "paciente_id")
 	private Paciente paciente;
 
 	@ManyToOne
-	@JoinColumn(name = "doctor_id")
+	@JoinColumn(name = "medico_id")
 	private Medico medico;
 
 	public Long getId() {
@@ -31,11 +31,11 @@ public class Agendamento {
 	}
 
 	public Timestamp getAppointmentTime() {
-		return appointmentTime;
+		return agendamento_time;
 	}
 
-	public void setAppointmentTime(Timestamp appointmentTime) {
-		this.appointmentTime = appointmentTime;
+	public void setAppointmentTime(Timestamp agendamento_time) {
+		this.agendamento_time = agendamento_time;
 	}
 
 	public boolean isStarted() {
@@ -55,17 +55,17 @@ public class Agendamento {
 	}
 
 	public String getReason() {
-		return reason;
+		return razao;
 	}
 
-	public void setReason(String reason) {
-		this.reason = reason;
+	public void setReason(String razao) {
+		this.razao = razao;
 	}
 
 	@Override
 	public String toString() {
-		return "Agendamento [id=" + id + ", appointmentTime=" + appointmentTime + ", started=" + started + ", ended="
-				+ ended + ", reason=" + reason + "]";
+		return "Agendamento [id=" + id + ", agendamento_time=" + agendamento_time + ", started=" + started + ", ended="
+				+ ended + ", razao=" + razao + "]";
 	}
 
 	public Paciente getPatient() {

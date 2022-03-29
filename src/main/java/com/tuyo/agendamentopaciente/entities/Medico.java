@@ -13,7 +13,7 @@ public class Medico {
 	private String lastName;
 	private String speciality;
 
-	@ManyToMany(mappedBy = "medicos")
+	@ManyToMany(mappedBy = "medicos") // Usando mappedBy aqui, numa associação ManyToMany, estamos dizendo ao hibernate que ele busque um relacionamento similar ou como está sendo executado este join ou como fazer o ManyToMany no outro lado: Paciente.
 	private List<Paciente> pacientes;
 
 	@OneToMany(mappedBy = "medico", cascade = CascadeType.ALL)

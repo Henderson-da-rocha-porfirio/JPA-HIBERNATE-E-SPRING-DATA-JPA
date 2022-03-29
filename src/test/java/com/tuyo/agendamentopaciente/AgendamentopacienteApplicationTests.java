@@ -8,7 +8,7 @@ import java.util.List;
 
 import com.tuyo.agendamentopaciente.entities.Agendamento;
 import com.tuyo.agendamentopaciente.entities.Medico;
-import com.tuyo.agendamentopaciente.entities.Seguranca;
+import com.tuyo.agendamentopaciente.entities.SeguroSaude;
 import com.tuyo.agendamentopaciente.entities.Paciente;
 import com.tuyo.agendamentopaciente.repos.AgendamentoRepository;
 import com.tuyo.agendamentopaciente.repos.MedicoRepository;
@@ -35,8 +35,24 @@ public class AgendamentopacienteApplicationTests {
 
     @Test
     public void testCreateDoctor() {
+        Medico medico = new Medico();
+        medico.setFirstName("Barros");
+        medico.setLastName("Silva");
+        medico.setSpeciality("All");
 
-        List<Medico> list = new ArrayList<>();
+        medicoRepository.save(medico);
+
+        /*List<Medico> list = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            Medico medico = new Medico();
+            // medico.setId(4L);
+            medico.setFirstName("Barros");
+            medico.setLastName("Silva");
+            medico.setSpeciality("All");
+
+            list.add(medico);
+        }*/
+       /* List<Medico> list = new ArrayList<>();
         for (int i = 0; i < 50; i++) {
             Medico medico2 = new Medico();
             // medico2.setId(4L);
@@ -45,9 +61,9 @@ public class AgendamentopacienteApplicationTests {
             medico2.setSpeciality("All2");
 
             list.add(medico2);
-        }
+        }*/
 
-        medicoRepository.saveAll(list);
+       // medicoRepository.saveAll(list);
     }
 
     @Test
@@ -58,11 +74,11 @@ public class AgendamentopacienteApplicationTests {
         paciente.setLastName("Bailey");
         paciente.setPhone("123456");
 
-        Seguranca seguranca = new Seguranca();
-        seguranca.setProviderName("Blue Cross Blue Shield");
-        seguranca.setCopay(20d);
+        SeguroSaude seguroSaude = new SeguroSaude();
+        seguroSaude.setProviderName("Blue Cross Blue Shield");
+        seguroSaude.setCopay(20d);
 
-        paciente.setInsurance(seguranca);
+        paciente.setInsurance(seguroSaude);
 
         Medico medico = medicoRepository.findById(1L).get();
         List<Medico> medicos = Arrays.asList(medico);
@@ -76,8 +92,8 @@ public class AgendamentopacienteApplicationTests {
     public void testCreateAppointment() {
 
         Agendamento agendamento = new Agendamento();
-        Timestamp appointmentTime = new Timestamp(new Date().getTime());
-        agendamento.setAppointmentTime(appointmentTime);
+        Timestamp agendamento_time = new Timestamp(new Date().getTime());
+        agendamento.setAppointmentTime(agendamento_time);
         agendamento.setReason("I have a problem");
         agendamento.setStarted(true);
 

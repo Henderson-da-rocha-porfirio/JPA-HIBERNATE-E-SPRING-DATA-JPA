@@ -15,7 +15,7 @@
 #### B. Objetos:
 #### - Paciente:
 ##### i. Carrega as informações do paciente
-##### ii. Manter essas informações seguras.
+##### ii. Pagamento. 
 #### - Médico:
 ##### i. Quer consultar.
 #### - Agendamento:
@@ -33,3 +33,5 @@
 ### 4. Por onde começar:
 #### i. Criar o Database Schema: criar a tabela Agendamento que requererá a criação das tabelas medico, paciente_medicos e paciente
 #### ii. Criar o Projeto Spring Data: cria entidades, repositorios e testes para o agendamento dos pacientes.
+#### iii. Incorporar ( to embedded ) SeguroSaude dentro de Paciente.
+#### iv. Definir a associação entre Paciente e Médico e também fazer o Join entre entidades.
