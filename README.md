@@ -21,3 +21,12 @@
 ### 3. Criar Repository
 ### 4. Configurar Datasource ( application.properties )
 ### 5. Testar a aplicação.
+## Queries = IdClass x Embedded
+### IdClass
+#### select c.email from Consumidor c
+### - Se quiser só selecionar o Email de Consumidor, usando a IdClass, é possível fazer isso diretamente quando se está escrevendo JPQL ou Native Query:
+### - Se estiver usando HQL ( hibernate query language ) ou JPQL que é equivalente ao JPS query language.
+### - Você terá que usar c.email e usar ID Class porque o Consumidor terá o email
+### Embedded
+#### select c.consumidorId.email from Consumidor c
+## Verificar o Exemplo Embedded na Branch
