@@ -1,34 +1,14 @@
 package com.tuyo.compositekey.entities;
 
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.IdClass;
 
 @Entity
-@IdClass(ConsumidorId.class)                    // 1º Passo para usar o Composite Key ( Chave Composta ). Isso diz o que é a Primary Key.
-public class Consumidor {                       // Com a anotação @IdClass, tanto o Hibernate quanto o Spring JPA sabem que essa classe ConsumidorId é a Composite Key para essa Entitidade em particular.
+public class Consumidor {
 
-    @Id
-    private int id;
-    @Id                                         // Com Composite Key, ambos atributos devem ser anotados com @Id
-    private String email;
+    @EmbeddedId                         // Ele Embeddable (incorpora) os campos id e email da Classe Composite: ConsumidorId
+    private ConsumidorId id;            // substitui id e email
     private String name;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public String getName() {
         return name;
@@ -36,5 +16,13 @@ public class Consumidor {                       // Com a anotação @IdClass, ta
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public ConsumidorId getId() {
+        return id;
+    }
+
+    public void setId(ConsumidorId id) {
+        this.id = id;
     }
 }
