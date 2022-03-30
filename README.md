@@ -1,8 +1,8 @@
 # Composite Key ( Chave Composta )
 ## I. É uma combinação de Colunas da Tabela do Database
 ### 1. Como por exemplo: há uma tabela chamada Cliente e em vez de só usar o campo ID como uma Primary Key, é possível usar o Email e o ID de mais de duas Colunas.
-### 2. A tabela CLIENTE tem id e email, mas também é possível colocar email como parte do ID, já que email é único para todo CLIENTE e é not null.
-|   CLIENTE   | :---: | :---: |
+### 2. A tabela CONSUMIDOR tem id e email, mas também é possível colocar email como parte do ID, já que email é único para todo CONSUMIDOR e é not null.
+|   CONSUMIDOR   | :---: | :---: |
 |   :---:     |   :---:     | :---: |
 |id  |  :---:| :---: |
 |email |  :---:| :---: |
