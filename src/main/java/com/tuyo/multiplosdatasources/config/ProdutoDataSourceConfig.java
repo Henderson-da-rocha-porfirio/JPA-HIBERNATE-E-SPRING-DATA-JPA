@@ -39,7 +39,7 @@ public class ProdutoDataSourceConfig {
 	public LocalContainerEntityManagerFactoryBean produtoEntityManagerFactory(EntityManagerFactoryBuilder builder) {
 
 		HashMap<String, String> produtoJpaProperties = new HashMap<>();					// Para fazer Customizações ou passar alguma propriedade do Hibernate, como criar ou 'dropar' tabelas automaticamente. HashMap faz a controller ir a uma nova variável local chamada produtoJpaProperties
-		produtoJpaProperties.put("hibernate.hbm2ddl.auto", "create-drop");			// Isso automaticamente cria tabelas.
+		//produtoJpaProperties.put("hibernate.hbm2ddl.auto", "create-drop");			// Isso automaticamente cria tabelas. É preciso comentar ao remover o h2 dos properties.
 		return builder.dataSource(produtoDataSource()).packages(Produto.class).persistenceUnit("produtoDataSource")
 				.properties(produtoJpaProperties).build();
 	}
