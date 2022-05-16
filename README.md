@@ -43,7 +43,19 @@ Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
 Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
+## *** JPA: Java Persistence API - Detalhes
+````
+É uma especificação JEE, ou seja, uma solução ORM para a persitência de dados padronizado para aplicações Java.
+````
+#### - Define a forma de mapeamento de objeto relacional
+#### - Possui uma API de consultas
+#### - Possui uma API de modificação de dados
+#### - Tem uma Linguagem de Consultas (JPQL)
 
+## *** JPA vs HIBERNATE
+````
+Código Java -> ORM = JPA (ESPECIFICA:métodos; interfaces;) / HIBERNATE (IMPLEMENTA: métodos e interfaces) -> Driver -> SQL
+````
 ## *** ORM - Object Relation Mapping (Mapeamento Objeto Relacional)
 ````
 É uma técnica para mapeamento de classes (orientação a objeto) para tabelas de banco relacional.
@@ -78,30 +90,13 @@ o progamador trabalhe mais com a orientação a objeto e menos no modelo relacio
 * @Id
 * @Column
 ````
-### 1. Persistência Com ORM:
+### 4. Persistência Com ORM:
 ### - A ORM traduz as instruções que o nosso código Java passar para ela.
 ````
 Código Java -> ORM -> Driver -> SQL
 ````
-### JPA: Java Persistence API
-````
-É uma especificação JEE, ou seja, uma solução ORM para a persitência de dados padronizado para aplicações Java.
-````
-#### - Define a forma de mapeamento de objeto relacional
-#### - Possui uma API de consultas
-#### - Possui uma API de modificação de dados
-#### - Tem uma Linguagem de Consultas (JPQL)
-
-### ii. Hibernate
-````
-É uma implementação da especificação JPA.
-````
-## JPA vs HIBERNATE
-````
-Código Java -> ORM = JPA (ESPECIFICA:métodos; interfaces;) / HIBERNATE (IMPLEMENTA: métodos e interfaces) -> Driver -> SQL
-````
-
-## A. Entendendo o Fluxo de Execução do Spring ao corrermos ( run ) a nossa aplicação:
+## SPRING - FLUXO DE EXECUÇÃO
+### A. Entendendo o Fluxo de Execução do Spring ao corrermos ( run ) a nossa aplicação:
 #### 1. MAVEN CLASSPATH: Ele começa buscando em nossa classpath as dependências do Maven que foram inicializadas na instalação do projeto como o Spring:
 ##### a. Se não usarmos outro fornecedor(vendor) ORM ( Object Relational Mapping = processo de mapeamento de uma classe java à tabela do database e seus campos ou membros para as colunas das tabelas existentes. ), ele usará o hibernate por default.
 ##### b. Busca também pelo connector sql ( ou mysql se estiver usando ).
@@ -115,7 +110,7 @@ Código Java -> ORM = JPA (ESPECIFICA:métodos; interfaces;) / HIBERNATE (IMPLEM
 ##### c. E quando executa nossa Interface ProdutoRepositorio com o método respository.save, Spring cria internamente uma implementação, uma implementação representante ( proxy ) dessa classe que retornará os métodos invocados em EntityManager.
 ##### d. Então, quando invocamos métodos como "save" ou um "find one" ou um "delete", internamente, Spring está invocando os métodos de EntityManager através de uma classe que gera em tempo real a implementação nessa interface em particular e executa as operações de gerenciamento necessárias no Database.
 ##### e. Com isso, evitamos todos os códigos boiler plates ( vários códigos e estruturas ) e configuração ao simplesmente usar Spring Data que simplifica nossas operações de Database para as nossas aplicações.
-## B. JPQL
+### B. JPQL
 ##### a. Significa Java Persistence Query Language.
 ##### b. Ele é um padrão para fazer queries do JPA que nada tem a ver com objetos e classe de domínios que são escritos em queries sequenciais, diferentes de como são escritas para tabelas e colunas do database.
 ##### c. JPQL queries são escritas de maneira diferente de nossos objetos e seus campos.
@@ -144,4 +139,3 @@ Código Java -> ORM = JPA (ESPECIFICA:métodos; interfaces;) / HIBERNATE (IMPLEM
 ##### j. Muito do que há em SQL pode ser convertido e usado em palavras-chaves e síntaxe JPQL.
 ##### k. JPQL é case sensitive quando quando se trata de nomes de classe de domínio (Funcionario) e seu campos (pName e etc).
 ##### l. Contudo, JPQL não é case sensitive quando se trata de palavras-chave na própria sintaxe da linguagem como, por exemplo, se você estivesse usando funções agregadas como contagem.
-
