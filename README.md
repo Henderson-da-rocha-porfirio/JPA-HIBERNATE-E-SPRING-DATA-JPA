@@ -1,6 +1,6 @@
 # SPRING DATA JPA
 
-## HIBERNATE - Antes de entender o JPA, é preciso compreender o Hibernate.
+## *** HIBERNATE - Antes de entender o JPA, é preciso compreender o Hibernate.
 ### 1. O Hibernate é um framework objeto relacional porque ajuda a representar tabelas de um banco de dados relacional através de classes.
 
 ### 2. A vantagem dessa estratégia é a de automatizar as tarefas com banco de dados de forma que é possível simplificar o código da aplicação.
@@ -16,23 +16,25 @@
 Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
 
-## JPA -  Java Persistence API
-### 1. O Hibernate é um framework objeto relacional porque ajuda a representar tabelas de um banco de dados relacional através de classes.
+## *** JPA -  Java Persistence API
+### 1. É uma especificação oficial que descreve como deve ser o comportamento dos frameworks de persistência Java que desejarem implementá-la..
 
-### 2. A vantagem dessa estratégia é a de automatizar as tarefas com banco de dados de forma que é possível simplificar o código da aplicação.
+### 2. Podemos imaginar que a especificação JPA como uma interface que possui algumas assinaturas, mas que precisa que alguém a implemente.
 
-### 3. Ele consegue gerar, em tempo de execução, o SQL necessário para interagir com o banco de dados.
+### 3. Apesar de não ter nada executável, a especificação possui algumas classes, interfaces e anotações que ajudam o desenvolvedor a abstrair o código.
 
-### 4. Para cada banco de dados (MySQL, PostgreSQL, Oracle, etc), ele tem um dialeto diferente que pode ser configurado de acordo com a necessidade da aplicação.
+### 4. São artefatos do pacote javax.persistence que ajudam a manter o código independente das implementações da especificação.
 
-### 5. Isso significa também que podemos trocar o banco de dados utilizado sem ter que alterar o código-fonte. Podemos fazer somente com configuração.
+### 5. Assim não precisamos importar classes de terceiros em nosso código.
 
-### 6. A ideia de mapeamento objeto relacional do Hibernate deu tão certo que ele serviu como a principal inspiração para criação de uma especificação Java para persistência: Nascia a especificação JPA. Também conhecida como Java Persistence API.
+### 6. Implementação é quem dá vida para a especificação. É o código que podemos executar, que chamamos de framework.
+
+### 7. Enfim, para persistir dados com JPA, é preciso escolher uma implementação que é quem, de fato, vai fazer todo o trabalho
 ````
 Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
 
-## ORM - Object Relation Mapping:
+## *** ORM - Object Relation Mapping:
 ````
 É uma técnica para mapeamento de classes (orientação a objeto) para tabelas de banco relacional.
 De forma a simplificar a persitência de dados e tornar possível que
