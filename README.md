@@ -30,6 +30,16 @@ Fonte: https://blog.algaworks.com/tutorial-jpa/
 ### 6. Implementação é quem dá vida para a especificação. É o código que podemos executar, que chamamos de framework.
 
 ### 7. Enfim, para persistir dados com JPA, é preciso escolher uma implementação que é quem, de fato, vai fazer todo o trabalho
+
+### 8. É um papel importante para mostrar para a comunidade que a especificação é possível e viável.
+
+### 9. A grande ideia da especificação JPA é que a aplicação possa trocar de implementação sem que precise de mudanças no código. Apenas um pouco de configuração.
+
+### 10. Uma mesma aplicação que poderia estar rodando no GlassFish com EclipseLink poderia também funcionar no WildFly com Hibernate
+
+### 11. Temos como implementação o OpenJPA da Apache, o Hibernate da Red Hat e o EclipseLink da Eclipse Foundation.
+
+### 12. As duas mais importantes são o Hibernate, por ainda ser a mais utilizada, e o EclipseLink, por ser a implementação de referência.
 ````
 Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
