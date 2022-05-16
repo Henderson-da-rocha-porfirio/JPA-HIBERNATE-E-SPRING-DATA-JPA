@@ -51,13 +51,12 @@ De forma a simplificar a persitência de dados e tornar possível que
 o progamador trabalhe mais com a orientação a objeto e menos no modelo relacional.
 ````
 ### 1. Mapeamento Objeto Relacional (ORM) é a representação de uma tabela de um banco de dados relacional através de classes Java.
+### 2. Equivalência:
 
-### Comparação I
-
-|   Modelo Relacional   | Modelo OO |
+|   Banco de Dados   | Linguagem OO |
 |   :---:     |   :---:     |
 | Tabela  | Classe |
-| Linha  | Objeto |
+| Linha / Registro  | Objeto |
 | Coluna  | Atributo |
 | :---:   | Método |
 | Chave Estrangeira(FK)  | Associação entre Classes |
@@ -72,6 +71,13 @@ o progamador trabalhe mais com a orientação a objeto e menos no modelo relacio
 | :---:   | :---: |
 |:---:  | :---: |
 
+### 3. Para completar, temos as anotações que adicionarão metadados às classes e permitirão os frameworks ORM, como Hibernate ou EclipseLink, entrarem em ação.
+````
+*** @Entity
+*** @Table
+*** @Id
+*** @Column
+````
 ### 1. Persistência Com ORM:
 ### - A ORM traduz as instruções que o nosso código Java passar para ela.
 ````
