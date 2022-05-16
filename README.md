@@ -73,10 +73,10 @@ o progamador trabalhe mais com a orientação a objeto e menos no modelo relacio
 
 ### 3. Para completar, temos as anotações que adicionarão metadados às classes e permitirão os frameworks ORM, como Hibernate ou EclipseLink, entrarem em ação.
 ````
-*** @Entity
-*** @Table
-*** @Id
-*** @Column
+* @Entity
+* @Table
+* @Id
+* @Column
 ````
 ### 1. Persistência Com ORM:
 ### - A ORM traduz as instruções que o nosso código Java passar para ela.
