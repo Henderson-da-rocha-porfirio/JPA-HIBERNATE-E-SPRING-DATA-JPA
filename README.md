@@ -44,12 +44,14 @@ Fonte: https://blog.algaworks.com/tutorial-jpa/
 Fonte: https://blog.algaworks.com/tutorial-jpa/
 ````
 
-## *** ORM - Object Relation Mapping:
+## *** ORM - Object Relation Mapping (Mapeamento Objeto Relacional)
 ````
 É uma técnica para mapeamento de classes (orientação a objeto) para tabelas de banco relacional.
 De forma a simplificar a persitência de dados e tornar possível que
 o progamador trabalhe mais com a orientação a objeto e menos no modelo relacional.
 ````
+### 1. Mapeamento Objeto Relacional (ORM) é a representação de uma tabela de um banco de dados relacional através de classes Java.
+
 ### Comparação I
 
 |   Modelo Relacional   | Modelo OO |
