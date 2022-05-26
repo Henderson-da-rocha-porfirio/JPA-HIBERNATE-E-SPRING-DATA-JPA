@@ -1,4 +1,4 @@
-# @Query
+# REPOSITORY COM @Query
 
 ## Correcao de Erro: hibernate_sequence
 ### Solucao(rodar no postgres):
