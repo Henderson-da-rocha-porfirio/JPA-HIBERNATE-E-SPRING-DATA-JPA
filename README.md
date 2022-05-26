@@ -1,4 +1,4 @@
-# JUNIT
+# @Test
 ### Grande parte dos repositórios nas branches daqui, JPA, tem os testes JUNIT
 ### POM:
 ````
