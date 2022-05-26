@@ -1,5 +1,5 @@
 # JUNIT
-### Grande parte dos repositórios nas branches tem os testes JUNIT
+### Grande parte dos repositórios nas branches daqui, JPA, tem os testes JUNIT
 ### POM:
 ````
 <dependency>
