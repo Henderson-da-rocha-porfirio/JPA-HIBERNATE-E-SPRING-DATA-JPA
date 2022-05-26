@@ -35,3 +35,5 @@
 #### ii. Criar o Projeto Spring Data: cria entidades, repositorios e testes para o agendamento dos pacientes.
 #### iii. Incorporar ( to embedded ) SeguroSaude dentro de Paciente.
 #### iv. Definir a associação entre Paciente e Médico e também fazer o Join entre entidades.
+
+# VERIFICAR O REPOSITORIO SQL CORRESPONDENTE A ESSE APP NAS BRANCHES
