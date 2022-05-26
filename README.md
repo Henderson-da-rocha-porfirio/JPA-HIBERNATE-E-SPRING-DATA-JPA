@@ -1,4 +1,4 @@
-# Spring-Data-JPA---JPQL-e-Native-Query
+# @Query
 
 ## Correcao de Erro: hibernate_sequence
 ### Solucao(rodar no postgres):
