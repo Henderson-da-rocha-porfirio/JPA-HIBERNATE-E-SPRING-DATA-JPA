@@ -1,4 +1,4 @@
-# @Embeddable
+# @EmbeddedId
 ## Composite Key ( Chave Composta )
 ## I. É uma combinação de Colunas da Tabela do Database
 ### 1. Como por exemplo: há uma tabela chamada Cliente e em vez de só usar o campo ID como uma Primary Key, é possível usar o Email e o ID de mais de duas Colunas.
