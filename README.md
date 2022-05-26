@@ -1,4 +1,4 @@
-# @Table Inheritance
+# @Inheritance
 ##Nós usamos herança em java para adicionar extensibilidade e reusibilidade para usar e criar novas classes de nossas classes domínios como simples objetos Java antigos que podem usar herança quando aplicadas ou aplicáveis e possíveis.
 
 ## Por exemplo temos:
