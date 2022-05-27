@@ -19,7 +19,7 @@ public class Produto {
 	private String nome;
 	private String descricao;
 	private BigDecimal preco;
-	@Transient
+	@Transient // @Transient = este campo nunca será salvo no Database.
 	private String cupomCodigo;
 
 	public Long getId() {
