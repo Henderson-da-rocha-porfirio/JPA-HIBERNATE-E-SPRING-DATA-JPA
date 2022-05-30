@@ -1,4 +1,4 @@
-# ACID-PROPRIEDADES - Transaction Management
+# @Transactional - Transaction Management
 
 ### Propriedades ACID
 #### a. Automicity
