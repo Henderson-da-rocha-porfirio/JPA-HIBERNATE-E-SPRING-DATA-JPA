@@ -1,5 +1,6 @@
 # SPRING DATA JPA
 ## *** Verificar os outros repositórios sobre JPA e suas branches ***
+## *** Verificar os outros repositórios SQL para a realização de testes ***
 
 ## *** JPA -  Java Persistence API
 ### 1. É uma especificação oficial que descreve como deve ser o comportamento dos frameworks de persistência Java que desejarem implementá-la..
