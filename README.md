@@ -1,4 +1,4 @@
-# @PersistenceContext
+# QUERY STRING um tipo de retorno
 
 ## URL para teste no PostMan:
 ### 1. Buscando pelo nome exato:
