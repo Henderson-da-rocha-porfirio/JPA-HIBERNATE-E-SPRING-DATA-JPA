@@ -1,4 +1,4 @@
-# CONSULTAS JPQL
+# @Repository
 
 ## URL para teste no PostMan:
 ### 1. Buscando pelo nome exato:
