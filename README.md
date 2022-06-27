@@ -1,4 +1,6 @@
-# QUERY STRING um tipo de retorno
+# @RequestParam
+
+## Busca o parâmetro da requisição.
 
 ## URL para teste no PostMan:
 ### 1. Buscando pelo nome exato:
