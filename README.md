@@ -1,7 +1,4 @@
-# @PathVariable
-
-## Busca pelo caminho e o parâmetro em "{ }".
-## Verificar a diferença com @RequestParam que está na branch de mesmo nome.
+# QUERY createQuery
 
 ## URL para teste no PostMan:
 ### 1. Buscando pelo nome exato:
