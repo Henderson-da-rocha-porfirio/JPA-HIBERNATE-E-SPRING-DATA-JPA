@@ -2,6 +2,8 @@
 
 ## Busca o parâmetro da requisição.
 
+## Verificar a diferença com @PathVariable que está na branch de mesmo nome.
+
 ## URL para teste no PostMan:
 ### 1. Buscando pelo nome exato:
 ````
