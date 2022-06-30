@@ -1,4 +1,5 @@
-# Generic WildCard menor que e maior que Diamond
+# Optional<>
+## Significa que pode ter ou não ter uma cozinha. Ou seja, não retorna null. E evita NullPointException(verificar uma branch sobre ele em java spring avancado)
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
