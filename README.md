@@ -1,5 +1,5 @@
-# Optional Evitando Null Point Exceptions
-## Verificar mais detalhes sobre Optional em Java Spring Avancado na Branch do mesmo nome.
+# Optional .get( )
+##  O ".get()" serve para copiar as propriedades de uma Classe ou Objeto pra dentro das propriedades de outra Classe/Objeto que está dentro do Optional.
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
