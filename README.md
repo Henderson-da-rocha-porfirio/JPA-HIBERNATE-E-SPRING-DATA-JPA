@@ -1,4 +1,5 @@
-# JpaRepository Exemplo com Lambda ->
+# Optional Evitando Null Point Exceptions
+## Verificar mais detalhes sobre Optional em Java Spring Avancado na Branch do mesmo nome.
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
