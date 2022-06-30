@@ -1,4 +1,4 @@
-# SPRING_DATA_JPA_OPTIONAL
+# OPTIONAL com FindBy
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
