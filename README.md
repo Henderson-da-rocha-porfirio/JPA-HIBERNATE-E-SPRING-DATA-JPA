@@ -1,4 +1,4 @@
-# FindBy_QUERY KEYWORDS
+# QUERY KEYWORDS para metodos Find
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
