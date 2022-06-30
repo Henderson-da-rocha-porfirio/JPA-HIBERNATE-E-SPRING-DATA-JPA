@@ -1,4 +1,4 @@
-# JPA REPOSITORY DeleteById
+# JPA REPOSITORY FindAll
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
