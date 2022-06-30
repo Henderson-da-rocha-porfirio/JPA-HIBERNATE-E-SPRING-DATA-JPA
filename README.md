@@ -1,4 +1,4 @@
-# OrElse Optional
+# Generic WildCard menor que e maior que Diamond
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
