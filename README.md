@@ -1,4 +1,5 @@
-# JPA REPOSITORY DeleteById
+# Optional .orElseThrow
+## pede o retorno da cozinha que está dentro do Optional, ou seja, como se fosse usando o isEmpty.
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
