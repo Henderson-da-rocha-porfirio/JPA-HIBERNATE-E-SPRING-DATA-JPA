@@ -1,4 +1,4 @@
-# FindBy_Com_And
+# FindBy_Com_CONTAINING
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
