@@ -1,5 +1,5 @@
-# OrElseThrow Optional
-## pede o retorno da cozinha que está dentro do Optional, ou seja, como se fosse usando o isEmpty.
+# IsEmpty Optional
+## Responde a pergunta: Está vazio aí dentro?
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
