@@ -1,5 +1,4 @@
-# Optional<>
-## Significa que pode ter ou não ter uma cozinha. Ou seja, não retorna null. E evita NullPointException(verificar uma branch sobre ele em java spring avancado)
+# Generic <?>
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
