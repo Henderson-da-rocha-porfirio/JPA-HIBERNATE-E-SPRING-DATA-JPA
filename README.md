@@ -1,4 +1,5 @@
-# SPRING_DATA_JPA_Repository
+# @Component - Definindo Beans
+## Verificar também a Branch sobre este assunto em Java Spring Avancado.
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
