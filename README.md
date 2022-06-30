@@ -1,5 +1,5 @@
-# IsEmpty Optional
-## Responde a pergunta: Está vazio aí dentro?
+# IsPresent Optional
+## Responde a pergunta: Tem alguma coisa aí dentro?
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
