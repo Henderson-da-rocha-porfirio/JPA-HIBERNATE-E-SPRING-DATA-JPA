@@ -1,4 +1,4 @@
-# FindBy
+# Spring Data JPA refatorado NOVO
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
