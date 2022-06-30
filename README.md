@@ -1,5 +1,4 @@
-# IsPresent Optional
-## Responde a pergunta: Tem alguma coisa aí dentro?
+# JpaRepository Exemplo com Lambda ->
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
