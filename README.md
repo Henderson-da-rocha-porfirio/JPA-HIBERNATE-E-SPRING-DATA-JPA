@@ -1,4 +1,4 @@
-# @Param fazendo bind
+# JPQL Com @Query
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
