@@ -1,4 +1,4 @@
-# META-INF
+# QUERY Consultas Externas Sem Find e Sem @Query
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
