@@ -1,4 +1,5 @@
-# JpaRepository outro exemplo
+# JpaRepository-ex-maturacao-1
+## Acompanhar a maturidade do Spring Data JPA nos exemplos seguidos. Este é o início.
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
