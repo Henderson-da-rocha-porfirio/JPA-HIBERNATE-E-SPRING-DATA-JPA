@@ -1,4 +1,4 @@
-# QUERY METODOS
+# READ METODOS
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
