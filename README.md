@@ -1,4 +1,4 @@
-# EXISTS METODOS DE CONSULTA
+# COUNT METODOS DE CONSULTA
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
