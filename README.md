@@ -1,4 +1,4 @@
-# QUERY Consultas Externas Sem Find e Sem @Query
+# JPQL Com Consulta em Arquivo XML
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
