@@ -1,4 +1,4 @@
-# JPQL Com Consulta em Arquivo XML
+# JpaRepository-ex-maturacao-5
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
