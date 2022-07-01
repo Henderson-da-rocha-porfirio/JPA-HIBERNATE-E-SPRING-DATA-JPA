@@ -1,4 +1,4 @@
-# SPRING_DATA_JPA_ORM.XML
+# ORM.XML
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
