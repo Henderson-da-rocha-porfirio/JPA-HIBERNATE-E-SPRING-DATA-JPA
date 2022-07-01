@@ -48,9 +48,14 @@
 ## Keywords Spring DAta JPA:
 ### Link: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
 
-## Prefixos que tem a mesma funcionalidade:
-### find
-### query
-### read
-### get
-### stream
+## 1. Todos estes prefixos, de métodos de consulta, funcionam do mesmo jeito do find:
+   ### find
+   ### query
+   ### read
+   ### get
+   ### stream
+ ##  2. Outros prefixos como "count" e "exists":
+   ### Verificar se um registro exist (true e false) e count é usado para dar retorno númerico.
+ ##  3. Flags são usadas entre o "find" e o "Id" para limitar o resultado da consulta:
+   ### First
+   ### Top2
