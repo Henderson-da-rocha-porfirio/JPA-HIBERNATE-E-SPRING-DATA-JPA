@@ -1,4 +1,4 @@
-# SPRING_DATA_JPA_@Query_@Param_JPQL
+# @Query usando sem metodo find
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
