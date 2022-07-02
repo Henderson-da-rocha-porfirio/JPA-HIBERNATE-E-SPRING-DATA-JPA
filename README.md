@@ -52,7 +52,7 @@ Os endpoints são interfaces entre a API e a aplicação consumidora.
 ##### iii. estado
 ##### iv. país
 
-# NAMORO ENDPOINTS - Geralmente ficará numa Classe de Repositório chamada Repository
+# NAMORO ENDPOINTS - Ficará numa Classe de Controller
 ## Endpoints do Aplicativo de Namoro
 ### US = USER STORIES
 ### Requerimentos
