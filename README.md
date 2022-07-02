@@ -1,4 +1,4 @@
-# append()
+# toString()
 ````
-é usado para anexar a representação de string de algum argumento à sequência.
+é obrigatório o uso devido ao StringBuilder.
 ````
