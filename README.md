@@ -1,4 +1,4 @@
-# toString()
+# QUERY createQuery com Consulta Tipada
 ````
-é obrigatório o uso devido ao StringBuilder.
+chama uma consulta "tipada"(TypedQuery)
 ````
