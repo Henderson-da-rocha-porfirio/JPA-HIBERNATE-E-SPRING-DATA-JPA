@@ -1,4 +1,4 @@
-# QUERY createQuery com Consulta Tipada
+# TypedQuery
 ````
-chama uma consulta "tipada"(TypedQuery)
+chamado por createQuery como uma consulta "tipada"
 ````
