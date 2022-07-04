@@ -1,4 +1,4 @@
-# CriteriaQuery
+# CriteriaBuilder
 
 ## - É uma API do JPA poderosa para a criação de queries de forma programática.
 ## - Ela ajuda muito quando se precisa de consultas complexas e dinâmicas onde é muito difícil usar JPQL e chegar no mesmo resultado.
