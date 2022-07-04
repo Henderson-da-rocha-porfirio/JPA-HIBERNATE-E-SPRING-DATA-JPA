@@ -1,4 +1,4 @@
-# JPQL Com @Query
+# CONSULTAS @Query
 
 ## 1. JPA e Hibernate:
 ### — A. Uma Interface Repository ( Repositório Orientado a persistência ):
