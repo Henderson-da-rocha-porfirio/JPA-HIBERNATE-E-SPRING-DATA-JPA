@@ -1,4 +1,4 @@
-# DDD_SPECIFICATION
+# SPEC = SPECIFICATION
 
 ## Verificar o Spec nos repositórios. 
 
