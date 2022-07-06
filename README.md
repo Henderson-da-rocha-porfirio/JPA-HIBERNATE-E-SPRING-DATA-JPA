@@ -1,1 +1,1 @@
-# MAPEANDO_RELACIONAMENTO_@ManyToMany
+# joinColumns
