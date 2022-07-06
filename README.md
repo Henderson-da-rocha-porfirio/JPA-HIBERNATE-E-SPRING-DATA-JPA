@@ -1,1 +1,1 @@
-# inverseJoinColumns
+# @JoinTable ex 2
