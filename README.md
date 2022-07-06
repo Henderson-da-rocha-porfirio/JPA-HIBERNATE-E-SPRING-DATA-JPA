@@ -1,1 +1,1 @@
-# @JsonRootName
+# @ManyToOne RELACIONAMENTO BIDIRECIONAL
