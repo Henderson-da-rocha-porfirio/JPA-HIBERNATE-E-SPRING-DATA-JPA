@@ -1,1 +1,1 @@
-# @JsonRootName
+# @EqualsAndHashCode do Lombok
