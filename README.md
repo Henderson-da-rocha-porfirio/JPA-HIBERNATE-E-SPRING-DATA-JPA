@@ -1,2 +1,2 @@
-# TRABALHANDO_COM_CLASSE_INCORPORADA
+# @Embedded ENTIDADES QUE INCORPORAM CLASSES
 ## Tornando uma classe parte de uma entidade.
