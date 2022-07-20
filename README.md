@@ -1,2 +1,2 @@
-# @UpdateTimestamp
+# ColumnDefinition
 ## Trabalhando com Datas
