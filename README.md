@@ -41,4 +41,4 @@
 ##### i. Fazer uso de funções de agregação relacionais e Joins.
 ##### j. Muito do que há em SQL pode ser convertido e usado em palavras-chaves e síntaxe JPQL.
 ##### k. JPQL é case sensitive quando quando se trata de nomes de classe de domínio (Funcionario) e seu campos (pName e etc).
-##### l. Contudo, JPQL não é case sensitive quando se trata de palavras-chave na própria sintaxe da linguagem como, por exemplo, se você estivesse usando funções agregadas como contagem.
+##### l. Contudo, JPQL não é case sensitive quando se trata de palavras-chave na própria sintaxe da linguagem como, por exemplo, se você estivesse usando funções agregadas como contagem. 
