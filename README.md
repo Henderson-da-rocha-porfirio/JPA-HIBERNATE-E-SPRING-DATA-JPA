@@ -1,4 +1,4 @@
-# SPRING DATA JPA E HIBERNATEe
+# SPRING DATA JPA E HIBERNATE
 ## *** Verificar os outros repositórios sobre JPA e suas branches ***
 ## *** Verificar os outros repositórios SQL para a realização de testes ***
 
