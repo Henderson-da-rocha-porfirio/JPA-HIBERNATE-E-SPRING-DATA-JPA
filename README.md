@@ -16,6 +16,7 @@ long count(@org.springframework.lang.Nullable org.springframework.data.jpa.domai
 ## E recebe como parâmetros, um specification.
 
 ## Isso faz com que o find consiga ser passado nele os specifications:
+### comFreteGratis e o comNOmeSemelhante na controller: 
 `````
 (...) .findAll(comFreteGratis.and(comNOmeSemelhante));
 ````
