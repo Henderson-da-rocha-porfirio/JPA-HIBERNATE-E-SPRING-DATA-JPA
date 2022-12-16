@@ -20,3 +20,5 @@ long count(@org.springframework.lang.Nullable org.springframework.data.jpa.domai
 `````
 (...) .findAll(comFreteGratis.and(comNOmeSemelhante));
 ````
+## E cada Specification, cria um predicate do JPA (procurar no codigo por predicate
+### Exemplo: restaurantes com frete gratis ou com nome semelhante, fazer o teste no Postman.
